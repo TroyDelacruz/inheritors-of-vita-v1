@@ -1,0 +1,24 @@
+{
+  "name": "inheritors-of-vita-v1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start":"nodemon server.js"
+},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TroyDelacruz/inheritors-of-vita-v1.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TroyDelacruz/inheritors-of-vita-v1/issues"
+  },
+  "homepage": "https://github.com/TroyDelacruz/inheritors-of-vita-v1#readme",
+  "dependencies": {
+    "express-fileupload": "^1.4.0",
+    "express.js": "^1.0.0",
+    "nodemon": "^2.0.20"
+  }
+}
