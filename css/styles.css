@@ -5,3 +5,26 @@
     margin: 0 auto;
     padding: 0;
 }
+
+body {
+    width: 100%;
+    position: relative;
+    font-family: 'Sofia Sans Extra Condensed', sans-serif;
+    background-image: url('../img/full-moon.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+
+header {
+    position: relative;
+    text-align: center;
+    overflow: auto;
+}
+
+.nav-list {
+    display: flex;
+    list-style-type: none;
+    flex-wrap: wrap;
+    margin: 3em;
+}
