@@ -6,15 +6,21 @@
     padding: 0;
 }
 
+/*  Background will be black but will later be implemented
+    with a starry animation   */
+
 body {
+    color: white;
+    background-color: black;
     width: 100%;
     position: relative;
     font-family: 'Sofia Sans Extra Condensed', sans-serif;
-    background-image: url('../img/full-moon.jpg');
     background-repeat: no-repeat;
     background-size: 100%;
 }
 
+/* Header will have the centered h1 and blockquote associated with it.
+   The quote is at the bottom while the title is at the top */
 
 header {
     position: relative;
@@ -22,9 +28,51 @@ header {
     overflow: auto;
 }
 
+h1 {
+    color: #87CEEB;
+}
+
 .nav-list {
     display: flex;
     list-style-type: none;
     flex-wrap: wrap;
     margin: 3em;
+}
+
+.nav-list .list-item:nth-child(1) {
+    color: blueviolet;
+}
+
+.nav-list .list-item:nth-child(2) {
+    color: aquamarine;
+}
+
+.nav-list .list-item:nth-child(3) {
+    color: chartreuse;
+}
+
+.main-content {
+    position: relative;
+    text-align: center;
+    overflow: auto;
+}
+
+.stats {
+    display: flex;
+    list-style-type: none;
+    flex-wrap: wrap;
+    margin: 8em;
+    padding: 3em;
+}
+
+.stats .stat-hp:nth-child(1) {
+    color: red;
+}
+
+.stats .stat-mp:nth-child(2) {
+    color: blue;
+}
+
+.stats .stat-lv:nth-child(3) {
+    color: gold;
 }
