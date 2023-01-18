@@ -2,7 +2,7 @@
   "name": "inheritors-of-vita-v1",
   "version": "1.0.0",
   "description": "",
-  "main": "scripts.js",
+  "main": "",
   "scripts": {
     "start": "nodemon server.js"
   },
