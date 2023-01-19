@@ -32,6 +32,10 @@ h1 {
     color: #87CEEB;
 }
 
+blockquote {
+    margin-top: 2em;
+}
+
 .nav-list {
     display: flex;
     list-style-type: none;
@@ -75,4 +79,38 @@ h1 {
 
 .stats .stat-lv:nth-child(3) {
     color: gold;
+}
+
+.progression-bars {
+    display: flex;
+    list-style-type: none;
+    flex-wrap: wrap;
+    margin: 5em;
+    padding: 2em;
+}
+
+.progression-bars .experience-bar:nth-child(1) {
+    color: greenyellow;
+}
+
+.progression-bars .class-bar:nth-child(2) {
+    color: coral;
+}
+
+.progression-bars .wallet-bar:nth-child(1) {
+    color: silver;
+}
+
+.quote {
+    position: relative;
+}
+
+.history {
+    display: flex;
+    list-style-type: none;
+    flex-flow: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 5em;
+    padding: 2em;
 }
