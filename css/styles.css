@@ -128,12 +128,12 @@ blockquote {
 
 .stars {
     background: #000 url('../img/stars.png') repeat top center;
-    z-index: 0;
+    z-index: -1;
 }
 
 .clouds {
     background: transparent url('../img/clouds.png') repeat top center;
-    z-index: 2;
+    z-index: 1;
     opacity: .4;
     animation: move-clouds-back 200s linear infinite;
 }
